@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.menu{
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li{
+    padding-left: 5%;
+    padding-right: 5%;
+    display: inline-block;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.full-screen{
+    height: 100%;
+    width: 100%;
+}
+
+#screen-1{
+    display: table;
+    background-color: #212121;
+}
+
+.title{
+  font-size: 4em;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+}
+
+.title a{
+  text-decoration: none;
+  color: white;
+}
+
+#screen-2{
+  background-color: #ebebeb;
+}
+
+.half-screen-image{
+  width: 50%;
+  height: 100%;
+  margin: 0;
+}
+
+.half-screen-text{
+  width: 50%;
+  margin: 0;
+  padding-top: 2em;
+}
+
+.half-screen-title{
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.half-screen-content{
+
+}
+
+.fill-image{
+  height: 100%;
+  width:100%;
+  object-fit: cover;
+}
+
+.half-screen-text-inner{
+  padding: 2em;
+}
+
+#screen-4{
+    display: table;
+    background-color: #212121;
+}
