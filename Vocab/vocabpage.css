@@ -1,0 +1,65 @@
+body{
+  background-color: #009dbd;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+#card{
+  padding: 2em;
+  margin: 1em;
+  margin-top: 4em;
+  background-color: white;
+  border-radius: 10px;
+  display: block;
+}
+
+#title{
+  padding-bottom: 1em;
+  font-size: 2em;
+}
+
+table{
+  display: block;
+}
+table th{
+  text-align: left;
+  padding-right: 3em;
+  padding-bottom: 1em;
+}
+table td{
+  padding-bottom: 1em;
+}
+
+#quizButton{
+  border: solid;
+  border-width: medium;
+  border-color: #009dbd;
+  border-radius: 1em;
+  font-size: 1em;
+  background-color: #009dbd;
+  color: white;
+  outline: none;
+}
+
+#quizButton a{
+  color: white;
+  text-decoration: none;
+}
+
+#quizButton:hover a{
+  color: black;
+}
+
+#quizButton:hover{
+  border: solid;
+  border-color: #009dbd;
+  border-width: medium;
+  background-color: white;
+}
+
+#quizButton:active{
+  background-color: gray;
+  outline: none;
+}

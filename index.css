@@ -52,24 +52,24 @@ body{
 }
 
 .half-screen-image{
-  width: 50%;
+  width: 70%;
   height: 100%;
   margin: 0;
 }
 
 .half-screen-text{
-  width: 50%;
+  width: 30%;
   margin: 0;
   padding-top: 2em;
 }
 
 .half-screen-title{
-  font-size: 2em;
+  font-size: 3em;
   margin-bottom: 1em;
 }
 
 .half-screen-content{
-
+  font-size: 1.3em;
 }
 
 .fill-image{
@@ -85,4 +85,9 @@ body{
 #screen-4{
     display: table;
     background-color: #212121;
+}
+
+a{
+  color: white;
+  text-decoration: none;
 }

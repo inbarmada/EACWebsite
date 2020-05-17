@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightgreen;
+}
+
+#stuff{
+  height: 100%;
+  background-color: lightblue;
+}
+
+#menu{
+  height: 100%;
+  /* display: none; */
+}
+
+#permanent-menu{
+  background-color: orange;
+  display: block;
+}
+
+#temp-menu{
+  background-color: pink;
+  display: block;
+}

@@ -1,0 +1,43 @@
+body{
+  background-color: black;
+  color: white;
+}
+.full-screen{
+    height: 100%;
+    width: 100%;
+}
+
+#screen-1{
+    display: table;
+    background-color: #212121;
+}
+
+.title{
+  font-size: 8em;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  color: white;
+  padding-left: 1em;
+}
+
+.title a{
+  text-decoration: none;
+  color: white;
+}
+
+#home-subject-list{
+  padding-top: 2em;
+}
+
+#home-subject-list th, #home-subject-list td{
+  color: white;
+  font-size: 1.5em;
+  padding-top: 1em;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+#home-subject-list th{
+  text-align: left;
+  text-decoration: underline;
+}
